@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<title>0度轻阅读~属于你的专属阅读室</title>
+	<link rel="stylesheet" href="./style/achre.css" />
+	<link rel="stylesheet" href="./style/index1.css" />
+	<link rel="stylesheet" href="./style/large1.css" />
+	<link rel="stylesheet" href="./style/middle1.css" />
+	<link rel="stylesheet" href="./style/swiper.min.css" />
+	<link rel="stylesheet" href="./fonts/iconfont.css" />
+	<link rel="icon" type="icon" href="./images/favicon.ico" sizes="32x32" />
+	<link rel="stylesheet" href="css/solid.css">
+	<link rel="stylesheet" href="css/fontawesome.css">
+	<link rel="stylesheet" href="css/style.css">
+	<meta id="viewport" name="viewport" content="width=device-width,minimum-scale=1,maximum-scale=1">
+	<meta name="keywords" content="">
+	<meta name="description" content="">
+	<script src="./frame/jquery-3.3.1.min.js"></script>
+	<script src="./frame/jquery-1.8.3.min.js"></script>
+	<script src="./frame/swiper.min.js"></script>
+	<script src="./frame/plug_common.js"></script>
+	<style>
+		.swiper-container {
+			width: 100%;
+			overflow: hidden;
+			border-radius: 8px;
+		}
+		.swiper-slide a{
+			display: block;
+			background-position: center;
+			width: 100%;
+			overflow: hidden;
+		}
+		.swiper-slide {
+			width: 100%;
+			border-radius: 8px;
+			overflow: hidden;
+		}
+	</style>
+	<script>
+		window.onload = window.onresize = function(){
+			var view_width = document.getElementsByTagName('html')[0].getBoundingClientRect().width;
+
+			var _html = document.getElementsByTagName('html')[0];
+			view_width>640?_html.style.fontSize = 640 / 16 + 'px':_html.style.fontSize = view_width / 16 + 'px';
+		}
+	</script>
+</head>
+<body>
+	<div class="header">
+		<div class="wrap">
+			<div class="wrapper">
+				<div class="farm">
+					<input type="text" placeholder="搜索关键词……" name="" />
+					<a href="###" class="sou"><i class="iconfont">&#xe610;</i></a>
+				</div>
+				<div class="menu">
+					<a href="###" class="menu_icon"><i class="iconfont">&#xe60e;</i></a>
+				</div>
+				<div class="head_tf">
+					<h1 class="logo">
+						<a href="index.html">
+							<img src="./images/logo1.png" alt="" />
+						</a>
+					</h1>
+					<ul class="nav_menu close_menu">
+						<li><a href="index.html">首页</a></li>
+						<li><a href="achre.html">小酒馆</a></li>
+						<li class="active"><a href="about.html">留言</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="ww_nav">
+		<ul class="www_nav">
+			<li><a href="active.html">微杂谈</a></li>
+			<li><a href="active.html">故事</a></li>
+			<li><a href="active.html">历史文化</a></li>
+			<li><a href="active.html">影视</a></li>
+			<li><a href="active.html">游戏</a></li>
+			<li><a href="active.html">技术</a></li>
+			<li><a href="active.html">分享</a></li>
+		</ul>
+	</div>
+	<div class="content_main main_cont clearfix">
+		<div class="w_blur"></div>
+		<div class="contenter">
+			<div class="w_4">
+				<h4>听音乐</h4>
+			</div>
+			<div class="zo">
+				<div class="bo1">
+					<div id="dowebok">
+						<div id="player">
+							<div id="player-track">
+								<div id="album-name"></div>
+								<div id="track-name"></div>
+								<div id="track-time">
+									<div id="current-time"></div>
+									<div id="track-length"></div>
+								</div>
+								<div id="s-area">
+									<div id="ins-time"></div>
+									<div id="s-hover"></div>
+									<div id="seek-bar"></div>
+								</div>
+							</div>
+							<div id="player-content">
+								<div class="album-art">
+									<img src="images/1.jpg" class="active" id="_1">
+									<img src="images/2.jpg" id="_2">
+									<img src="images/3.jpg" id="_3">
+									<img src="images/4.jpg" id="_4">
+									<img src="images/5.jpg" id="_5">
+									<div id="buffer-box">加载中...</div>
+								</div>
+								<div id="player-controls">
+									<div class="control">
+										<div class="button" id="play-previous">
+											<i class="fas fa-backward"></i>
+										</div>
+									</div>
+									<div class="control">
+										<div class="button" id="play-pause-button">
+											<i class="fas fa-play"></i>
+										</div>
+									</div>
+									<div class="control">
+										<div class="button" id="play-next">
+											<i class="fas fa-forward"></i>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="w_4">
+				<h4>留言板</h4>
+			</div>
+			<div class="lv">
+				<iframe title="livere" scrolling="no" frameborder="0" src="https://was.livere.me/comment/city?id=city&amp;refer=www.2019w.cn%2Fabout%2F&amp;uid=MTAyMC8zODE5Ni8xNDcyNA%3D%3D&amp;site=http%3A%2F%2Fwww.2019w.cn%2Fabout%2F&amp;title=%2525u7559%2525u8A00%252520%25257C%2525202019%2525u7F51-%2525u8F7B%2525u9605%2525u8BFB&amp;titleLength=14" id="lv-comment-704" style="min-width: 100%; width: 100px; height: 2182px; overflow: hidden; border: 0px;"></iframe>
+			</div>
+		</div>
+	</div>
+	<div>
+		<div class="footer_top">
+			<div class="footer_content">
+				<div class="footer_item">
+					<h3 class="footer_title">
+						关于
+					</h3>
+					<div class="foot_text">
+						聚合优质内容，捕捉每个瞬间，细品生活滋味,体会百味人生。小小的站有大大的梦。
+					</div>
+					<ul class="fot">
+						<li><i class="iconfont">&#xe60f;</i><a href="###">Hebei,Baoding,China</a></li>
+						<li><i class="iconfont">&#xe614;</i><a href="###">519221036@qq.com</a></li>
+					</ul>
+					<p class="fot_p">相关侵权、举报、投诉及建议等，请发E-mail：519221036@qq.com</p>
+				</div>
+				<div class="footer_item">
+					<h3 class="footer_title">
+						联系ME
+					</h3>
+					<div class="foot_text">
+						QQ:519221036
+					</div>
+				</div>
+				<div class="footer_item">
+					<h3 class="footer_title">
+						友情链接
+					</h3>
+					<ul class="foot">
+						<li><a href="###">B站up主</a></li>
+						<li><a href="http://m.jspoo.com/movie.html">聚神铺VIP视频解析</a></li>
+						<li><a href="###">工作室</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="footer_bot">
+			<div class="footer_cont">
+				<p class="copy">
+					<span>©Rieko © 2018 ,2019w All Rights Reserved.0 度 - 轻阅读 , 看见好时光  苏ICP备8888888号-8</span><br />
+					<a class="botu" href="###">Hello word</a>
+				</p>
+				<div class="linkss">
+					<ul class="links">
+						<li><a href="###"><i class="iconfont">&#xe732;</i></a></li>
+						<li><a href="###"><i class="iconfont">&#xe657;</i></a></li>
+						<li><a href="###"><i class="iconfont">&#xe62f;</i></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<ul class="fix_left">
+		<li title="分享"><i class="iconfont">&#xe624;</i></li>
+		<li class="Top"><i class="iconfont">&#xe626;</i></li>
+	</ul>
+	<script src="js/index.js"></script>
+</body>
+</html>
